@@ -4,7 +4,7 @@ var rat, ratImg1, ratImg2, ratImg3;
 
 function preload() {
     //load the images here
-    bgImg = loadImage("garden.png");
+    bgImg = loadImage("images/garden.png");
 
     catImg1= loadAnimation("images/cat1.png"); 
     catImg2=loadAnimation("images/cat2.png","images/cat3.png"); 
