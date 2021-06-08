@@ -9,9 +9,9 @@ function preload() {
     catImg1= loadAnimation("images/cat1.png"); 
     catImg2=loadAnimation("images/cat2.png","images/cat3.png"); 
     catImg3= loadAnimation("images/cat4.png");
-    ratImg1=loadAnimation("images/jerryOne.png");
-    ratImg2= loadAnimation("images/jerryTwo.png","images/jerryThree.png");
-    ratImg3=loadAnimation("images/jerryFour.png");
+    ratImg1=loadAnimation("images/ratOne.png");
+    ratImg2= loadAnimation("images/ratTwo.png","images/ratThree.png");
+    ratImg3=loadAnimation("images/ratFour.png");
 
 }
 
