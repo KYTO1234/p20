@@ -30,7 +30,7 @@ function setup(){
 
 function draw() {
 
-    background(bg);
+    background(bgImg);
     //Write condition here to evalute if tom and jerry collide
     if(cat.x - rat.x < (cat.width - rat.width)/2)
     { 
