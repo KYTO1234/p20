@@ -16,7 +16,7 @@ function preload() {
 }
 
 function setup(){
-    createCanvas(400,400);
+    createCanvas(1000,800);
     //create tom and jerry sprites here
     cat = createSprite(870, 600);
     cat.addAnimation("catSleeping", catImg1);
