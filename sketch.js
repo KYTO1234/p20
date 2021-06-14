@@ -35,7 +35,7 @@ function draw() {
     if(cat.x - rat.x < (cat.width - rat.width)/2)
     { 
         cat.velocityX=0;
-        cat.addAnimation("tomLastImage", catImg3);
+        cat.addAnimation("catLastImage", catImg3);
         cat.x =300;
         cat.scale=0.2;
         cat.changeAnimation("catLastImage");
@@ -51,7 +51,7 @@ function draw() {
 function keyPressed(){
 
   //For moving and changing animation write code here
-  if(keycode === LEFT_ARROW){
+  if(keyCode === LEFT_ARROW){
     cat.velocityX = -5; 
     cat.addAnimation("catRunning", catImg2);
     cat.changeAnimation("catRunning");
