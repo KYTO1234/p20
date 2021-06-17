@@ -56,6 +56,8 @@ function keyPressed(){
     cat.addAnimation("catRunning", catImg2);
     cat.changeAnimation("catRunning");
 
+      rat..addAnimation("ratRunning", catImg2);
+      rat.changeAnimation("ratRunning");
   }
 
 }
