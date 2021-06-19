@@ -56,7 +56,7 @@ function keyPressed(){
     cat.addAnimation("catRunning", catImg2);
     cat.changeAnimation("catRunning");
 cat.frameDelay=25
-      rat.addAnimation("ratRunning", catImg2);
+      rat.addAnimation("ratRunning", ratImg2);
       rat.changeAnimation("ratRunning");
       rat.frameDelay=25
   }
