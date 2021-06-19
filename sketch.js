@@ -55,9 +55,10 @@ function keyPressed(){
     cat.velocityX = -5; 
     cat.addAnimation("catRunning", catImg2);
     cat.changeAnimation("catRunning");
-
-      rat..addAnimation("ratRunning", catImg2);
+cat.frameDelay=25
+      rat.addAnimation("ratRunning", catImg2);
       rat.changeAnimation("ratRunning");
+      rat.frameDelay=25
   }
 
 }
